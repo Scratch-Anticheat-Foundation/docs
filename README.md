@@ -1,6 +1,6 @@
 ---
-icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
+icon: page
+cover: broken-reference
 coverY: 0
 layout:
   cover:
@@ -18,12 +18,22 @@ layout:
     visible: true
 ---
 
-# Welcome
+# Scratch Anticheat Docs
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+{% hint style="info" %}
+These docs require an amateur level of knowledge of the Scratch language unless noted otherwise.
+{% endhint %}
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+### About Scratch Anticheats
 
-### Jump right in
+Scratch Anticheats (usually stylized as "anticheat" or "anti-cheat") are projects that aim to prevent cheating in Scratch projects, such as platformer, top-down and sometimes clicker games.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+The concept of Scratch anticheats, starting in \~2017, come from Minecraft anticheats such as NCP, Grim and Verus, which over the years (with the development of simulation anticheats for Minecraft) have also influenced Scratch counterparts. Many of the techniques and styles used in the creation of them have been directly influenced from Minecraft.
+
+#### Scratch
+
+As Scratch is a platform that allows free remixing and editing of project code, it means that anticheat code [cannot be enforced\*](#user-content-fn-1)[^1]. Because of this, Scratch anticheats are more of a technical/theoretical nature. Some people may use obfuscation to make their anticheat harder to remove from the base game, or to make it more annoying in general to work past.
+
+[^1]: Some games are multiplayer (cloud based) and will implement peer-side anticheats on all players. Most of the time these types of anticheats will ignore actions sent to the peer if they are flagged.\
+    \
+    Notable examples are griffpatch's Laser 3D Tag and Minecraft-ish MMO, of which the latter is a popular game to make cheats for (utilizing Scratchsploit)
